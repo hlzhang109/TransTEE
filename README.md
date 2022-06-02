@@ -3,7 +3,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is an official PyTorch implementation of the paper [Can Transformers be Strong Treatment Effect Estimators?](https://arxiv.org/abs/2202.01336)
+This is an official PyTorch implementation of the paper [Exploring Transformer Backbones for Heterogeneous Treatment Effect Estimation](https://arxiv.org/abs/2202.01336)
 
 
 
@@ -30,10 +30,9 @@ Dependencies of different settings are listed in each subfolder.
 ./CausalM
 
 ### Citation 
-The repository is under construction. If you find this repo useful, please cite: 
 ```
 @misc{zhang2022transformers,
-      title={Can Transformers be Strong Treatment Effect Estimators?}, 
+      title={Exploring Transformer Backbones for Heterogeneous Treatment Effect Estimation}, 
       author={Yi-Fan Zhang and Hanlin Zhang and Zachary C. Lipton and Li Erran Li and Eric P. Xing},
       year={2022},
       eprint={2202.01336},
