@@ -138,6 +138,7 @@ def get_split_indices(num_patients, patients, treatments, validation_fraction, t
 
     val_sss = StratifiedShuffleSplit(n_splits=1, test_size=num_validation_patients, random_state=0)
     train_indices, val_indices = next(val_sss.split(patients[rest_indices], treatments[rest_indices]))
+    train_indices, val_indices = rest_indices[train_indices], rest_indices[val_indices]
 
     return train_indices, val_indices, test_indices
 
